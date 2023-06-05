@@ -186,7 +186,7 @@ sobre mi */
       box-shadow: 3px 3px rgba(115, 111, 111, 0.3);
       animation-name: moverse;
       animation-duration: 2s;
-      animation-iteration-count: 2;
+      animation-iteration-count:2;
   }
 
   @keyframes moverse{
@@ -205,7 +205,7 @@ sobre mi */
   }
 
   /* cuando coloco el cursor sobre mi imagen */
-  .carta img:hover {
+  .carta img:focus:active{
       scale: 1.1;
       filter: grayscale(0%);
       border-radius: 10%;
