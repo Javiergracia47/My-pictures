@@ -201,11 +201,12 @@ sobre mi */
   /* la imagen de mi carta */
   .carta img {
       width: 100%;
-      filter: grayscale(80%);
+      filter: grayscale(70%);
   }
 
   /* cuando coloco el cursor sobre mi imagen */
   .carta img:hover{
+       transition: all 1s;
       scale: 1.1;
       filter: grayscale(0%);
       border-radius: 10%;
