@@ -303,6 +303,10 @@ sobre mi */
   }
 
   @media (min-width:993px){
+   .galeria{
+    margin-left: 25px;
+   }
+
    .galeria__cartas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
